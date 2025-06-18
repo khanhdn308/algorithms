@@ -24,3 +24,5 @@ function longestSubstringWithKdistinct(str: string, k: number) {
 }
 
 console.log(longestSubstringWithKdistinct("araaci", 2))
+// longestSubstringWithKdistinct("araaci", 1)//2, The longest substring with no more than '1' distinct characters is "aa".
+// longestSubstringWithKdistinct("cbbebi", 3)//5, The longest substrings with no more than '3' distinct characters are "cbbeb" & "bbebi".
